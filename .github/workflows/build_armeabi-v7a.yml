@@ -1,6 +1,7 @@
 name: build curl+openssl armeabi-v7a
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
