@@ -1,6 +1,7 @@
 name: build curl+openssl arm64-v8a
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
 
